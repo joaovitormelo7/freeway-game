@@ -25,6 +25,7 @@ function movimentaAtor(){
 //verifica a colisão com o carro 
 function verificaColisao(){
 
+    //colisão de retangulo com circulo 
   //collideRectCircle(x1, y1, width1, height1, cx, cy, diameter)
   for(let i = 0; i < imagemCarros.length; i++){
     colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15);
