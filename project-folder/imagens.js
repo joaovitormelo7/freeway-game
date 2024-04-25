@@ -1,5 +1,4 @@
 //IMAGENS DO JOGO
-
 let imagemDaEstrada;
 let imagemDoAtor;
 let imagemCarro;
@@ -8,6 +7,7 @@ let imagemCarro3;
 
 
 
+//carrega as imagens do jogo 
 function preload(){
   imagemDaEstrada = loadImage("imagens/estrada.png");
   imagemDoAtor = loadImage("imagens/ator-1.png");

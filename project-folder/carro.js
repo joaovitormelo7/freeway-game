@@ -6,7 +6,7 @@ let comprimentoCarro = 50;
 let alturaCarro = 40;
 
 
-
+//função de mostrar o carro 
 function mostraCarro(){
   for(let i = 0; i < imagemCarros.length; i++){
     image(imagemCarros[i], xCarros[i], yCarros[i], comprimentoCarro, alturaCarro);
@@ -14,12 +14,14 @@ function mostraCarro(){
   }
 }
 
+//função para movimentar o carro
 function movimentaCarro(){
   for(let i = 0; i < imagemCarros.length; i++){
   xCarros[i] -= velocidadeCarros[i];
   }
 }
 
+//volta para posição inicial ao atravessar a tela 
 function voltaPosicaoInicialCarro(){
   for(let i = 0; i < imagemCarros.length; i++){
     if(passouTodaATela(xCarros[i])){
@@ -28,6 +30,7 @@ function voltaPosicaoInicialCarro(){
   }
 }
 
+//função para identificar que o carro passou toda a tela 
 function passouTodaATela(xCarros){
    return xCarros < - 50;
   
