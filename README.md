@@ -18,4 +18,4 @@ In this game, the player controls a character navigating through obstacles,the o
 Arrow Keys: Use the arrow keys (up, down) to control the player character's movement.
 
 
-![image](https://github.com/joaovitormelo7/freeway-game/assets/78929530/eb4e5c43-ed72-4e8d-90a0-b30eedb3ebca)
+![GifGame](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Fwc3RvaTZ0eWF0YW40dmFxZHVpeTRxZXd1aTNwNDFuMTgwZG9peCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RsIxtS2MSW2IrLrQZG/giphy.gif)
