@@ -6,7 +6,7 @@ This is a simple game created using JavaScript and p5.js to improve your logic a
 
 In this game, the player controls a character navigating through obstacles,the objective is to avoid collisions with obstacles. The game provides a visual interface with colorful graphics and background music to enhance user immersion.
 
-# Features ✈
+# Features 💾
 
 * Collision Detection: The game detects collisions between the player character and obstacles, resulting in losing your point and starting over from the beginning.
 * Scoring System: Points are awarded to the player for successfully navigating through obstacles.
